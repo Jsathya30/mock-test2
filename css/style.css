@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/* #story{ */
+	/* height:100vh; */
+/* } */
+
+.container{
+	width:80%;
+	margin:auto;
+	background-color:#D6B4FC;
+	padding:20px;
+}
+/* .row1,.row2,.row3{ */
+	/* width:100%; */
+	/* display:flex; */
+/* } */
+/* .col-content1,.col-content2,.col-content3{ */
+	/* width:35%; */
+	/* padding:10px; */
+/* } */
+.col-content1,.col-content3{
+	padding-left:10px;
+}
+/* .col-img1,.col-img2,.col-img3{ */
+	/* width:30%; */
+	/* padding:5px; */
+/* } */
+/* .col-img2{ */
+	/* padding-left:60px; */
+/* } */
+/* .col-img1,.col-img3{ */
+	/* padding-left:60px; */
+/* } */
+img{
+	width:50%;
+	border-radius:50%;
+	
+}
+.card-1,.card-2,.card-3{
+	border:1px solid #808080;
+	padding:10px;
+}
+.col-content2{
+	padding-left:10px;
+}
+.row2{
+	
+	flex-direction:row-reverse;
+}
+.date{
+	font-size:10px;
+	padding-bottom:10px;
+}
+.para{
+	padding-bottom:5px;
+}
+/* .row1{ */
+	/* position:relative; */
+/* } */
+/* .line1{ */
+	
+	/* background-color:#fff; */
+	/* transform:rotate(90deg); */
+	/* height:70px; */
+	/* position:absolute; */
+	/* top:20%; */
+	/* left:37.3%; */
+/* } */
+/* .line2{ */
+	/* background-color:#fff; */
+	/* transform:rotate(90deg); */
+	/* height:136px; */
+	/* position:absolute; */
+	/* top:45%; */
+	/* left:57%; */
+/* } */
+/* .line3{ */
+	
+	/* background-color:#fff; */
+	/* transform:rotate(90deg); */
+	/* height:70px; */
+	/* position:absolute; */
+	/* top:80%; */
+	/* left:40.2%; */
+/* } */
+.story-title{
+	padding-bottom:10px;
+	text-align:center;
+}
+.story-title h4{
+	font-size:13px;
+}
+.story-title h2{
+font-family: 'Dancing Script', cursive;
+font-size:25px;
+}

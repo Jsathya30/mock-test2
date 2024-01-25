@@ -1,0 +1,151 @@
+
+/* mobile view */
+
+@media(min-width:320px){
+	.row1,.row2,.row3{
+	width:100%;
+    }
+	.col-content1,.col-content2,.col-content3{
+	width:100%;
+	padding:10px 10px 50px 10px;
+	
+    }
+	.col-img1,.col-img2,.col-img3{
+	width:100%;
+	padding:5px;
+	
+    }
+	.row1{
+	position:relative;
+}
+.line1{
+	
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:50px;
+	position:absolute;
+	transform:rotate(180deg);
+	top:54%;
+	left:25%;
+}
+.line2{
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:55px;
+	position:absolute;
+	transform:rotate(180deg);
+	top:103%;
+	left:33%;
+}
+.line3{
+	
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:55px;
+	position:absolute;
+	transform:rotate(180deg);
+	top:155.5%;
+	left:33%;
+}
+}
+
+/* ipad view */
+@media(min-width:760px){
+	
+	.row1,.row2,.row3{
+	width:100%;
+	display:flex;
+    }
+	.col-content1,.col-content2,.col-content3{
+	width:35%;
+	padding:10px;
+    }
+	.col-img1,.col-img2,.col-img3{
+	width:30%;
+	padding:5px 5px 5px 25px;
+}
+		.row1{
+	position:relative;
+}
+.line1{
+	
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:38px;
+	position:absolute;
+	top:10%;
+	left:36%;
+}
+.line2{
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:83.5px;
+	position:absolute;
+	top:35%;
+	left:57%;
+}
+.line3{
+	
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:35px;
+	position:absolute;
+	top:60%;
+	left:39.6%;
+}
+}
+
+
+/* desktop view */
+
+@media(min-width:1000px){
+	
+	.row1,.row2,.row3{
+	width:100%;
+	display:flex;
+    }
+	.col-content1,.col-content2,.col-content3{
+	width:35%;
+	padding:10px;
+}
+	.row1{
+	position:relative;
+}
+.line1{
+	
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:70px;
+	position:absolute;
+	top:20%;
+	left:37.3%;
+}
+.line2{
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:136px;
+	position:absolute;
+	top:45%;
+	left:57%;
+}
+.line3{
+	
+	background-color:#808080;
+	transform:rotate(90deg);
+	height:70px;
+	position:absolute;
+	top:80%;
+	left:40.2%;
+}
+.col-img1,.col-img2,.col-img3{
+	width:30%;
+	/* padding:5px; */
+}
+.col-img2{
+	padding-left:60px;
+}
+.col-img1,.col-img3{
+	padding-left:60px;
+}
+
+}
